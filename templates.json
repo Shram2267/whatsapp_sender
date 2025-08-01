@@ -1,0 +1,31 @@
+[
+    {
+        "template_name": "risky_customer",
+        "template_id": "risky_customer_message",
+        "message": "Greeting from Rajmandir Hypermarket\n\n{{message}}\n\nHappy Shopping",
+        "mappings": {
+            "mobile_no": {
+                "type": "column",
+                "value": "Mobile No"
+            },
+            "message": {
+                "type": "custom",
+                "value": "Hello Shri Ram, This is Test"
+            }
+        }
+    },
+    {
+        "template_name": "utlity message",
+        "template_id": "utlity07062025",
+        "message": "{{1}}\n\nRAJMANDIR HYPERMARKET - Wholesale Rate ka Hyper Market! \ud83c\udfea\n\n{{2}}\n\n{{3}}\n\n{{4}}\n\n{{5}}\n\n{{6}}\n\nThank You for being a loyal customer of Rajmandir Hypermarket",
+        "mappings": {
+            "mobile_no": "Mobile No",
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 5,
+            "6": 6
+        }
+    }
+]
